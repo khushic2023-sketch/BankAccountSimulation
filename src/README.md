@@ -23,5 +23,5 @@ The project showcases inheritance, encapsulation, method overriding, and transac
 ```bash
 javac *.java
 java Main
-```
+```bash
 ## Author Khushi Chauhan
