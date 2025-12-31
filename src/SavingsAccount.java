@@ -14,6 +14,7 @@ public class SavingsAccount extends BankAccount {
 	public void applyInterest() {
 		double interest = balance * interestRate;
 		balance += interest;
+		transactions.add("Applied interest: $" + interest + ", Balance: $" + balance);
 	}
 
 	public double getInterestRate() {
